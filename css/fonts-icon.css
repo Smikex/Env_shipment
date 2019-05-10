@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'snaapy-icon-set';
+  src:  url('../font/fonts-icon/snaapy-icon-setedcc.eot?rqy61q');
+  src:  url('../font/fonts-icon/snaapy-icon-setedcc.eot?rqy61q#iefix') format('embedded-opentype'),
+    url('../font/fonts-icon/snaapy-icon-setedcc.ttf?rqy61q') format('truetype'),
+    url('../font/fonts-icon/snaapy-icon-setedcc.woff?rqy61q') format('woff'),
+    url('../font/fonts-icon/snaapy-icon-setedcc.svg?rqy61q#snaapy-icon-set') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icn-"], [class*=" icn-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'snaapy-icon-set' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icn-basic_create_shipments:before {
+  content: "\e900";
+}
+.icn-basic_pagination_first:before {
+  content: "\e901";
+}
+.icn-basic_pagination_last:before {
+  content: "\e902";
+}
+.icn-basic_pagination_next:before {
+  content: "\e903";
+}
+.icn-basic_pagination_prev:before {
+  content: "\e904";
+}
+.icn-basic_search:before {
+  content: "\e905";
+}
+.icn-basic_tables_dropdown_arrow:before {
+  content: "\e906";
+}
+.icn-button_eraser:before {
+  content: "\e907";
+}
+.icn-input_calendar:before {
+  content: "\e908";
+}
+.icn-input_company:before {
+  content: "\e909";
+}
+.icn-input_contact_book:before {
+  content: "\e90a";
+}
+.icn-input_email:before {
+  content: "\e90b";
+}
+.icn-input_phone:before {
+  content: "\e90c";
+}
+.icn-input_pin:before {
+  content: "\e90d";
+}
+.icn-input_search_fast:before {
+  content: "\e90e";
+}
+.icn-input_user:before {
+  content: "\e90f";
+}
+.icn-menu_administration_default:before {
+  content: "\e910";
+}
+.icn-menu_billing_default:before {
+  content: "\e911";
+}
+.icn-menu_dashboard_default:before {
+  content: "\e912";
+}
+.icn-menu_input_calendar:before {
+  content: "\e913";
+}
+.icn-menu_input_dropdown_arrow:before {
+  content: "\e914";
+}
+.icn-menu_main_active:before {
+  content: "\e915";
+}
+.icn-menu_main_default:before {
+  content: "\e916";
+}
+.icn-menu_main_hover:before {
+  content: "\e917";
+}
+.icn-menu_profile_avatar:before {
+  content: "\e918";
+}
+.icn-menu_profile_notifications:before {
+  content: "\e919";
+}
+.icn-menu_shipments_default:before {
+  content: "\e91a";
+}
+.icn-menu_shop_default:before {
+  content: "\e91b";
+}
+.icn-menu_support_default:before {
+  content: "\e91c";
+}
+.icn-menu_system_default:before {
+  content: "\e91d";
+}
+.icn-shipmennts_admin_delete:before {
+  content: "\e91e";
+}
+.icn-shipmennts_admin_generate_new_tag:before {
+  content: "\e91f";
+}
+.icn-shipmennts_admin_generation_log:before {
+  content: "\e920";
+}
+.icn-shipmennts_admin_resend:before {
+  content: "\e921";
+}
+.icn-shipmennts_admin_send_email:before {
+  content: "\e922";
+}
+.icn-shipmennts_user_chat:before {
+  content: "\e923";
+}
+.icn-shipmennts_user_create_label:before {
+  content: "\e924";
+}
+.icn-shipmennts_user_create_similar:before {
+  content: "\e925";
+}
+.icn-shipmennts_user_download_label:before {
+  content: "\e926";
+}
+.icn-shipmennts_user_request_invoice:before {
+  content: "\e927";
+}
+.icn-shipmennts_user_schedule:before {
+  content: "\e928";
+}

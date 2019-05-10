@@ -1,0 +1,1169 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+*,
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*background: #fafafa;*/
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+/*Стили которые перетирают MDB*/
+.md-form {
+
+}
+
+
+
+/*end*/
+.fa-margin {
+    margin-right: 15px;
+    margin-top: -12px;
+}
+#folder-4  {
+    background: orange;
+    width: 100%;
+    display: flex;
+}
+
+.noclick {
+    position: relative;
+    z-index: 999;
+
+}
+.click-line {
+    display: block;
+    /*border: 1px solid red;*/
+    height: 50px;
+    width: 1800px;
+    z-index: 0;
+
+}
+.wrapper-content {
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+}
+
+header,
+.container,
+footer {
+    padding-right: 20px;
+}
+
+.header {
+    padding-top: 10px;
+}
+body {
+    background: #fbfafa;
+}
+
+.fullSize {
+    width: 100%;
+}
+.pagination .page-link {
+    color: #2870ad !important;
+}
+
+/* For input */
+.custom-input {
+    margin: 5px 0 10px 0;
+}
+
+/* change position select label*/
+.serch_custom .select-wrapper + label {
+    left: 12px;
+}
+/* Use for class ROW */
+.custom-row {
+    /*border: 1px solid red;*/
+    /*padding: 15px;*/
+    margin-top: 10px;
+    color: #4A4A4A;
+}
+/* Stile sor Obligatory Field */
+.obligatory-field {
+    color: #f30;
+}
+.custom-stile label span {
+    color: #f30;
+}
+.custom-stile label .label-mobile {
+    color: #757575;
+}
+.custom-field {
+    margin: 0;
+}
+.select-wrapper input.select-dropdown {
+    margin-bottom: 0;
+    color: #495057;
+}
+
+/*remove shadow bottom for card title and border radius */
+.coustome-style .card.card-cascade .view.view-cascade {
+    box-shadow: none;
+    border-radius: .25rem .25rem  0 0;
+}
+
+/* custom Stile for CARD */
+
+.custom-card .card-body {
+    padding: 20px;
+}
+
+.custom-stile .card.card-cascade .view.view-cascade {
+    box-shadow: none;
+    border-radius: .25rem .25rem  0 0;
+}
+.custom-card .view {
+    background: #006ead;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.custom-card .form-check {
+    padding-left: 0;
+}
+.custom-card .card-body {
+    padding: 20px 20px;
+}
+/* END custom Stile for CARD */
+
+/*
+    Side bar
+*/
+.container {
+    margin: 0;
+    min-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    padding-bottom: 300px;
+}
+.more-filters-content {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ecf3f6;
+}
+.more-filters-title {
+    font-weight: 700;
+}
+.more-filters-btn:active,
+.more-filters-btn:focus,
+.more-filters-btn:hover,
+.more-filters-btn {
+    color: #006ead;
+    position: relative;
+}
+.more-filters-btn .fa {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    margin-top: -11px;
+}
+.fullSize a:not(.collapsed) .rotate-icon-new {
+    top: 19px;
+    right: -15px;
+}
+
+.fullSize a:not(.collapsed) .rotate-icon-new {
+    webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.row_2 {
+    margin-top: 20px;
+}
+.row_3 {
+    margin-top: 20px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+}
+.sync-alt {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    font-size: 16px;
+    margin-top: -8px;
+    color: #757575;
+}
+.tooltip-question {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    margin-top: -12px;
+    color: #757575;
+    /*border: 1px solid red;*/
+    display: inline-block;
+}
+/* ---------------------------------------------------
+------------------------------------------------------
+    Hint
+-----------------------------------------------------
+----------------------------------------------------- */
+.hint {
+    position: relative;
+}
+.popup-hint {
+    position: absolute;
+}
+
+/* ---------------------------------------------------
+------------------------------------------------------
+    MMENU
+-----------------------------------------------------
+----------------------------------------------------- */
+
+.hamburger {
+    position: absolute;
+    /*top: 20px;*/
+}
+.listview-icons span {
+    display: inline-block;
+    text-align: center;
+    width: 44px;
+}
+.fa-custome {
+    /*padding: 15px;*/
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 2px;
+}
+.listview-icons {
+    margin-bottom: 0 !important;
+    position: relative;
+    height: calc(100% - 20px);
+}
+.menu-support {
+    position: absolute !important;
+    bottom: 40px;
+    width: 100%;
+}
+.menu-faq {
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+}
+.first-line-menu {
+    font-size: 20px;
+    vertical-align: center;
+    /*font-size: 24px;*/
+    border-left: 3px solid transparent;
+}
+.first-line-menu a {
+    padding: 17px 0;
+}
+.first-line-menu:hover {
+    border-left:3px solid #f5681d;
+}
+/* ---------------------------------------------------
+------------------------------------------------------
+    HEAD
+-----------------------------------------------------
+----------------------------------------------------- */
+
+.name_shipments {
+    color: #4a4a4a;
+    font-weight: 700;
+    padding-left: 50px;
+    font-size: 24px;
+}
+.header {
+    /*padding-top: 20px;*/
+}
+
+.notifications {
+    position: relative;
+    margin-right: 40px;
+}
+.user .fa,
+.notifications .fa {
+    font-size: 1.3rem;
+    line-height: .9;
+    color: #b6bbc4;
+}
+#dropdownMenu4 .dropdown-item {
+    position: relative;
+    padding-left: 40px;
+}
+#dropdownMenu4 .dropdown-item .fa,
+#dropdownMenu4 .dropdown-item .fa {
+    position: absolute;
+    left: 7px;
+}
+#dropdownMenu4 .dropdown-item:hover .fa,
+#dropdownMenu4 .dropdown-item:hover .fa  {
+    color: #ffffff
+}
+.notifications span {
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    background: #ff5722;
+    top: -5px;
+    right: -6px;
+    position: absolute;
+    color: #ffffff;
+}
+.user {
+    color: #4a4a4a;
+    font-size: 18px;
+    /*padding-right: 50px;*/
+}
+.user .fa {
+    margin-right: 15px;
+}
+.user_name {
+    padding-right: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.user_name .fa {
+    position: absolute;
+    top: 50%;
+    right: -4px;
+    margin-top: -11px;
+    font-size: 18px;
+    /*line-height: 1.3;*/
+    /*margin-top: -10px;*/
+}
+.user_dropdown-menu {
+    width: 100%;
+}
+.user_dropdown-menu .fa {
+    font-size: 18px;
+    margin-right: 5px;
+    padding-right: 3px;
+}
+.dropdown-menu{
+    z-index: 9999;
+}
+.select-wrapper + label {
+    color: #757575;
+
+}
+/* ---------------------------------------------------
+------------------------------------------------------
+    Serch
+-----------------------------------------------------
+----------------------------------------------------- */
+.serch_custom {
+    border-bottom: 1px solid #CCC;
+
+}
+.wrapper-card-form .md-form,
+.serch_custom .md-form {
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+.serch_calendar input[type="text"],
+.serch_custom input[type="text"] {
+    width: 100%;
+    display: block;
+}
+
+.serch_custom .hash_tags {
+    padding-bottom: 7px;
+    width: 100%;
+    color: #9b9b9b;
+    font-size: 12px;
+}
+.serch_calendar {
+    position: relative;
+    /*flex-basis: 29%;*/
+    border: 1px solid transparent;
+}
+.serch_calendar i {
+    position: absolute;
+    top: 22px;
+    color: #4A4A4A;
+    left: 12px;
+}
+.wrapper-card-form .form-group  {
+    margin-bottom: 0;
+}
+.form-group {
+    margin-left: 30px;
+}
+/* ---------------------------------------------------
+        TABS AND CARDS
+----------------------------------------------------- */
+.upload .md-form {
+    text-align: right;
+}
+.upload .file-field {
+    display: inline-block;
+}
+.upload .md-form .btn {
+    margin-top: 10px;
+}
+.classic-tabs .nav li a {
+    /*border: none;*/
+    border-bottom: 4px solid #e5ebf1;
+}
+.classic-tabs .nav li a.active {
+    color: #006ead !important;
+    border-bottom: 4px solid #2291e8 !important;
+}
+.classic-tabs .nav li a.active:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    z-index: 999;
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -4px;
+    background: #d500f9;
+}
+
+.classic-tabs .nav li:first-child {
+    margin-left: 0 !important;
+}
+.nav-tabs {
+    border-bottom: 0px solid;
+}
+.tabs-custom li a {
+    color: #4a4a4a !important;
+}
+.tab-content {
+    padding: 10px 0 0 0;
+}
+.shipments-selected-text {
+    color: #838895;
+    padding: 5px 10px 5px 0;
+}
+.shipments-selected-icons {
+    padding: 5px 8px;
+    border-right: 1px solid #838895;
+}
+.shipments-selected-icons:last-child {
+    border-right: none;
+}
+.shipments-selected-icons a {
+    padding: 0 3px;
+}
+
+/* ---------------------------------------------------
+    head-card
+----------------------------------------------------- */
+.head-card {
+    background: #ecf3f6;
+    padding: 10px 23px;
+    margin: 20px auto 0;
+    font-weight: 700;
+    color: #828895;
+}
+.head-card:first-letter {
+    text-transform: uppercase;
+}
+.head-card div {
+    padding: 0;
+}
+.reset-form {
+    background: none;
+    border: none;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------
+    card
+----------------------------------------------------- */
+.card {
+    margin: 20px 0;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.show-less {
+    color: #006EAD;
+    font-weight: 600;	letter-spacing: 0.12px;	line-height: 19px;	text-align: right;
+}
+.logo_customer {
+    padding-right: 7px;
+}
+.logo_customer img {
+    width: 120px;
+}
+.id_enviaya img {
+    width: 30px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.id_enviaya span {
+    color: #006ead;
+    font-weight: 700;
+    font-size: 21px;
+}
+.shipping {
+    min-height: 50px;
+    position: relative !important;
+}
+.to {
+    position: relative;
+}
+.to:before {
+    content: '';
+    display: block;
+    width: 34px;
+    height: 12px;
+    background: url(../img/custom/st.png);
+    position: absolute;
+    left: -40px;
+
+}
+.company {
+    color: #5f5f5f;
+    font-weight: 700;
+    line-height: 1.2;
+    flex-basis: 100%;
+    padding-left: 0;
+}
+.customer_name {
+    line-height: 1.2;
+    flex-basis: 1;
+    color: #828895;
+}
+
+.status {
+    padding-left: 0;
+    /*background: #0b51c5;*/
+}
+.preperation {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 7px 10px;
+    color: #FFFFFF;
+    background: #276eac;
+}
+.preperation img {
+    margin-top: -3px;
+}
+.transit {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 7px 10px;
+    color: #FFFFFF;
+    background: #f5681d;
+}
+.transit img {
+    width: 22px;
+    margin-top: -3px;
+}
+.delivered {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 7px 10px;
+    color: #FFFFFF;
+    background: #5abf82;
+}
+.delivered img {
+    margin-top: -3px;
+}
+.actions {
+    position: relative;
+    /*padding-right: 30px;*/
+    padding-left: 0;
+    text-align: right;
+}
+.see-details {
+    text-transform: uppercase;
+    color: #2870ad;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 50px;
+    text-align: right;
+    height: 48px;
+    line-height: 48px;
+
+}
+.nav-rotate {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.collapsed {
+    color: #006ead;
+    /*border-left: 0 !important;*/
+}
+.rotate-icon {
+    height: 49px;
+    width: 49px;
+    background: #eceef1;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 49px;
+    font-weight: 900;
+}
+.card {
+    position: relative;
+    z-index: 998;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 10px 1rem 0 1rem;
+    border-top: 1px solid rgba(133, 133, 133, .1);
+}
+.card-content {
+    margin: 10px 0 30px 0;
+}
+.vendor-cost {
+    position: relative;
+    padding-left: 40px;
+}
+.vendor {
+    background: #eceef1;
+    color: #838895;
+    padding: 0 4px;
+    border-radius: 5px;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    left: -15px;
+    transform: rotate(-90deg);
+}
+
+.flag img {
+    margin-top: -4px;
+    margin-right: 10px;
+}
+
+.country {
+    color: #2c74af;
+    font-size: 16px;
+    font-weight: 700;
+}
+.date-status {
+    color: #2c74af;
+    font-weight: 700;
+}
+.ic-con {
+    padding: 0;
+    margin-right: -4px;
+}
+.icon-content  img {
+    width: 40px;
+    margin: 0 0 0 4px;
+}
+
+.card-footer {
+    background: #f7fcff;
+    border-top: 1px solid #276eac;
+    padding: 10px 13px 10px 10px;
+    
+}
+.in-blue {
+    color: #276eac;
+}
+.icon-hand {
+    padding: 0 15px;
+}
+.icon-hand img {
+    margin-top: -4px;
+}
+.info-carrier,
+.info-billing,
+.info-account {
+    padding-right: 7px;
+}
+.info-account .in-blue {
+    text-transform: uppercase;
+}
+.icon-footer  span {
+    width: 40px;
+    height: 40px;
+    margin: 0 4px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #eceef1;
+}
+.icon-footer  span:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.icon-footer  span a,
+.icon-footer  span img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.short_description {
+    font-size: 14px;
+    line-height: 1;
+}
+
+/* ---------------------------------------------------
+    Direction
+----------------------------------------------------- */
+.wrapper_language {
+
+}
+.wrapper-show-less {
+    text-align: right;
+}
+    /* ---------------------------------------------------
+        Order
+    ----------------------------------------------------- */
+
+.wrapper-order-card {
+    margin: 0;
+}
+.order-card {
+    margin-top: 15px;
+}
+
+/* ---------------------------------------------------
+    Direction
+----------------------------------------------------- */
+.direction-relative {
+    position: relative;
+}
+.direction-relative>div {
+    position: relative;
+    padding: 0 20px;
+}
+    /* ---------------------------------------------------
+            Invoices
+    ----------------------------------------------------- */
+.calendar {
+    margin-top: 0rem !important;
+}
+.row-btn {
+    padding: 0 10px 30px 10px;
+    margin-top: 20px;
+}
+.wrapper-btn {
+    padding: 0 0 30px 0;
+}
+.invoice-card {
+    /*width: 50%;*/
+    margin: 15px;
+    /*flex-basis: 1;*/
+}
+.btn-upload {
+    margin-left: -2px;
+}
+
+.custom-card  .btn {
+    padding: 5px 10px;
+    min-width: 190px;
+}
+.custom-card  .form-control {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+.custom-row {
+    margin-top: 1rem;
+}
+.invoice-calendar {
+    position: relative;
+}
+.invoice-calendar .md-form {
+    margin: 1rem 0 .4rem 0 !important;
+}
+.fa-custome-calendar {
+    position: absolute;
+}
+
+/* ---------------------------------------------------
+        Footer
+----------------------------------------------------- */
+footer {
+
+    padding: 30px 30px 0 30px;
+    border-top: 1px solid #CCC;
+    background: #fbfafa;
+}
+footer .md-form {
+    margin: 0;
+}
+.foo-wrapper {
+    margin-bottom: 20px;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+footer h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+footer.page-footer a {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #8c8c8c;
+}
+footer p  {
+    /*padding: 0;*/
+    line-height: 1.4;
+    /*margin: 0;*/
+    font-size: 14px;
+}
+.foo-wrapper .icn-input_email {
+    color: #f60;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.foo-wrapper .icn-shipmennts_user_schedule {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+}
+.foo-intel {
+    font-style: italic;
+}
+/* ---------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+   Get Shipment Rate
+------------------------------------------------------
+------------------------------------------------------
+-----------------------------------------------------
+----------------------------------------------------- */
+.sel {
+
+}
+.step-1-of-5-enter-s {
+    color: #525252;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.11px;
+    line-height: 34px;
+    margin-top: 5px;
+    text-align: center;
+}
+.atoms-icon-shipments-user-chat {
+    height: 24px;
+    width: 24px;
+    line-height: 32px;
+}
+.rectangle-15 {
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ECEEF1;
+    margin-left: 20px;
+}
+.card-body-row-1 {
+    background-color: #FBFBFB;
+    /*background: orange;*/
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ECEEF1;
+}
+.card-body-row {
+    padding: 10px 20px;
+}
+
+.btn-continue {
+    /*height: 46px;*/
+    width: 309px;
+    /*line-height: 46px;*/
+    font-size: 20px;
+    margin-left: -2px;
+}
+/* ---------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+    Step 1 of 5: Enter Shipment Details
+------------------------------------------------------
+------------------------------------------------------
+-----------------------------------------------------
+----------------------------------------------------- */
+.radioAddressBook {
+    position: relative;
+}
+.rectangle-5 {
+    padding: 7px 15px;
+    width: 100%;
+    border-radius: 4px;
+
+}
+.wr_line_address_book {
+    padding: 5px 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.static {
+    color: #828895;
+    font-size: 13px;
+    min-width: 70px;
+    line-height: 1.3;
+}
+.render_value {
+    line-height: 1.3;
+    color: #4A4A4A;
+    font-size: 13px;
+    font-weight: 600;
+}
+.card-body-row-2 {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    background-color: #F6FCFF;
+    position: relative;
+}
+.radioAddressBook .icon-absolute {
+    position: absolute;
+    top: 7px;
+    right: 15px;
+}
+.save-address-book {
+    color: #4A4A4A;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.new-direction {
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.14px;
+    line-height: 24px;
+}
+.contact-information {
+    color: #828895;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    line-height: 17px;
+}
+/* ---------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+    Step 2 of 5: Enter Shipment Details
+------------------------------------------------------
+------------------------------------------------------
+-----------------------------------------------------
+----------------------------------------------------- */
+
+
+
+
+
+.step {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.shipments-details {
+
+}
+.wrapper-card-form  .serch_calendar  {
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
+}
+.shipment-title {
+    padding-bottom: 10px;
+}
+.shipments-radio .custom-control {
+    margin-right: 25px;
+    cursor: pointer;
+}
+.shipments-radio .custom-control-label {
+    cursor: pointer;
+}
+.shipment-title {
+    padding-bottom: 20px;
+}
+.shipment-content,
+.document-weight {
+    margin: 25px 0 !important;
+}
+.insure-shipment {
+    margin-top: 25px;
+}
+.card-origin .md-form,
+.card-destination .md-form {
+    margin: 0 !important;
+}
+#content-name {
+    margin: -0px;
+    padding: 4px 0;
+}
+
+.contact {
+    color: #4A4A4A;
+    line-height: 34px;
+}
+.card-origin  input[type="date"],
+.card-origin  input[type="datetime-local"],
+.card-origin  input[type="email"],
+.card-origin  input[type="number"],
+.card-origin  input[type="password"],
+.card-origin  input[type="search-md"],
+.card-origin  input[type="search"],
+.card-origin  input[type="tel"],
+.card-origin  input[type="text"],
+.card-origin  input[type="time"],
+.card-origin  input[type="url"],
+.card-origin  textarea.md-textarea,
+.card-destination  input[type="date"],
+.card-destination  input[type="datetime-local"],
+.card-destination  input[type="email"],
+.card-destination  input[type="number"],
+.card-destination  input[type="password"],
+.card-destination  input[type="search-md"],
+.card-destination  input[type="search"],
+.card-destination  input[type="tel"],
+.card-destination  input[type="text"],
+.card-destination  input[type="time"],
+.card-destination  input[type="url"],
+.card-destination  textarea.md-textarea
+{
+    border-bottom: none;
+    margin: 0 0 0rem;
+}
+.ship-to {
+    padding-top: 6px;
+    color: #4A4A4A;
+}
+#box-1,
+#box-2 {
+    /*background: orange;*/
+    transition: 2.5s;
+    transition-delay: 10s;
+    padding: 30px 10px;
+}
+
+
+/* ---------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+    Dashboard
+------------------------------------------------------
+------------------------------------------------------
+-----------------------------------------------------
+----------------------------------------------------- */
+
+.dashboard-title {
+    color: #525252;
+    font-size: 48px;
+    letter-spacing: 0.41px;
+    font-weight: 300;
+}
+.dashboard-title-mini {
+    /*margin-top: 16px;*/
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4A4A4A;
+}
+.f-basis {
+    flex-basis: 24%;
+    margin: 10px;
+}
+.wrapper-combined-shape {
+
+}
+.combined-shape {
+    height: 200px;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 0 0 4px 4px;
+    background-color: #F6FCFF;
+    position: relative;
+    box-shadow: 0 -1px 3px 0 rgba(0,110,173,0.32);
+}
+
+.wrapper-ernest-card  {
+    padding: 30px 0;
+    margin-top: 40px;
+}
+.path-wrapper {
+    height: 122px;
+
+}
+.path {
+    height: 77.86px;
+    width: 88.2px;
+}
+.rate-my-first-shipme {
+    padding-top: 7px;
+    text-transform: uppercase;
+    color: #006EAD;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.13px;
+    line-height: 25px;
+    text-align: center;
+}
+.ernest-hover-link {
+    background: #000;
+}
+.combined-shape:hover .ernest-hover-link {
+    color: #ffffff;
+
+
+    height: 48px;
+    width: 48px;
+    transform:scale3d(1,1,1);
+    opacity:1;
+
+}
+.ernest-hover-link {
+    height: 8px;
+    width: 8px;
+    color: #ffffff;
+    line-height: 48px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    border-radius: 4px;
+    background-color: #FF6600;
+    opacity: 0;
+    transform:scale3d(.3,.3,.3);
+    transform: rotate(-60deg);
+    transition-duration: .5s;
+
+}
+.combined-shape:hover .ernest-hover-link i {
+    font-size: 30px;
+}
+.ernest-hover-link i {
+    color: #ffffff;
+    font-size: 0;
+    line-height: 48px;
+    transition-duration: .5s;
+}
