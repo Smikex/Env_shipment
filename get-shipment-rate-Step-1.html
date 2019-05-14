@@ -1,102 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from skyowl.pro/work/index/get-shipment-rate-Step-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 May 2019 08:09:24 GMT -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Material Design Bootstrap</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    <!-- Font fonts-icon -->
+  <!-- Select2 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
+  <!-- Font fonts-icon -->
   <link rel="stylesheet" href="css/fonts-icon.css" />
-  
+
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../../use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
-  
+
   <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css" >
-  <link rel="stylesheet" href="css/media.css" >
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Date Picker -->
   <link rel="stylesheet" href="css/daterangepicker.css">
-  <script src="../../../oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="../../../oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <!-- MMenu -->
-  <link rel="stylesheet" href="css/normalize.html" />
+  <!-- <link rel="stylesheet" href="css/normalize.html" /> -->
   <!--<link rel="stylesheet" href="css/layout.css" />-->
+
+
+
 </head>
 
 <body>
-<!--Main Navigation-->
-<header>
+  <!--Main Navigation-->
+  <header>
 
-</header>
-<!--Main Navigation-->
+  </header>
+  <!--Main Navigation-->
 
-<!--Main layout-->
-<main  id="page">
+  <!--Main layout-->
+  <main id="page">
     <div class="container">
-      
+
       <nav id="menu">
         <ul class="listview-icons">
-            <li class="first-line-menu">
-				<a href="#" class=" "><span><i class="fa-custome icn-menu_dashboard_default"></i></span>Dashboard</a>
-			</li>
-			<li>
-				<a class=" first-line-menu" href="#mm-1" aria-owns="mm-1" aria-haspopup="true">
-					<span><i class="fa-custome icn-menu_shipments_default"></i></span>
-					Shipments
-				</a>
-				<ul class="mm-listview custome-nav">
-					<li><a href="#">My Shipments</a></li>
-					<li><a href="#">Get Shipment Rate</a></li>
-					<li><a href="#">Quote Shipment</a></li>
-					<li><a href="#">Schedule Pickup</a></li>
-					<li><a href="#">Pickups</a></li>
-					<li><a href="#">Address book</a></li>
-					<li><a href="#">Packagings</a></li>
-					<li><a href="#">Shipment Template</a></li>
-				</ul>
-			</li>
-            <li class="first-line-menu"><a href="https://skyowl.pro/" class=" "><span><i class="fa-custome icn-menu_billing_default"></i></span>Billing</a></li>
-            <li class="first-line-menu"><a href="https://skyowl.pro/" class=" "><span><i class="fa-custome icn-menu_administration_default"></i></span>Administration</a></li>
-            <li class="first-line-menu"><a href="https://skyowl.pro/" class=" "><span><i class="fa-custome icn-menu_system_default"></i></span>Sistem</a></li>
-            <li class="first-line-menu"><a href="https://skyowl.pro/" class=" "><span><i class="fa-custome icn-menu_shop_default"></i></span>Shops</a></li>
-			<li class="menu-support first-line-menu"><a href="https://skyowl.pro/"><span><i class="fa-custome icn-menu_support_default"></i></span>Support</a></li>
-			<li class=" menu-faq first-line-menu"><a href="https://skyowl.pro/"><span><i class="fa-custome icn-menu_dashboard_default"></i></span>FAQ</a></li>
+          <li class="first-line-menu">
+            <a href="#" class=" "><span><i class="fa-custome icn-menu_dashboard_default"></i></span>Dashboard</a>
+          </li>
+          <li>
+            <a class=" first-line-menu" href="#mm-1" aria-owns="mm-1" aria-haspopup="true">
+              <span><i class="fa-custome icn-menu_shipments_default"></i></span>
+              Shipments
+            </a>
+            <ul class="mm-listview custome-nav">
+              <li><a href="#">My Shipments</a></li>
+              <li><a href="#">Get Shipment Rate</a></li>
+              <li><a href="#">Quote Shipment</a></li>
+              <li><a href="#">Schedule Pickup</a></li>
+              <li><a href="#">Pickups</a></li>
+              <li><a href="#">Address book</a></li>
+              <li><a href="#">Packagings</a></li>
+              <li><a href="#">Shipment Template</a></li>
+            </ul>
+          </li>
+          <li class="first-line-menu"><a href="#" class=" "><span><i
+                  class="fa-custome icn-menu_billing_default"></i></span>Billing</a></li>
+          <li class="first-line-menu"><a href="#" class=" "><span><i
+                  class="fa-custome icn-menu_administration_default"></i></span>Administration</a></li>
+          <li class="first-line-menu"><a href="#" class=" "><span><i
+                  class="fa-custome icn-menu_system_default"></i></span>Sistem</a></li>
+          <li class="first-line-menu"><a href="#" class=" "><span><i
+                  class="fa-custome icn-menu_shop_default"></i></span>Shops</a></li>
+          <li class="menu-support first-line-menu"><a href="#"><span><i
+                  class="fa-custome icn-menu_support_default"></i></span>Support</a></li>
+          <li class=" menu-faq first-line-menu"><a href="#"><span><i
+                  class="fa-custome icn-menu_dashboard_default"></i></span>FAQ</a></li>
         </ul>
       </nav>
       <div class="wrapper">
         <span id="hamburger" class="Sticky ">
-		    <a href="#menu" class="hamburger">
-              <span class="hamburger-box">
-                <span class="hamburger-inner "></span>
-              </span>
-            </a>
+          <a href="#menu" class="hamburger">
+            <span class="hamburger-box">
+              <span class="hamburger-inner "></span>
+            </span>
+          </a>
         </span>
         <!-- Head  -->
         <section class="header">
           <div class="d-flex justify-content-between align-items-center">
-             <div class=" name_shipments">
-               Get Shipment Rate
-             </div>
-             <div class="step-1-of-5-enter-s d-md-block d-none">
-               Step 1 of 5: Enter Shipment Details
-             </div>
+            <div class=" name_shipments">
+              Get Shipment Rate
+            </div>
+            <div class="step-1-of-5-enter-s d-md-block d-none">
+              Step 1 of 5: Enter Shipment Details
+            </div>
             <div class=" d-flex">
-              <div class="switch">
+              <!-- <div class="switch">
                 <label>
                   <span class="d-none   d-md-inline">Live mode</span>
                   <input type="checkbox">
                   <span class="lever"></span>
                 </label>
-              </div>
+              </div> -->
               <div class="notifications">
                 <a href="#">
                   <i class="fa fa-bell" aria-hidden="true"></i>
@@ -105,17 +113,17 @@
               </div>
               <div class="dropdown ">
                 <div class="user d-flex align-items-center" id="dropdownMenu4" data-toggle="dropdown"
-                     aria-haspopup="true" aria-expanded="false">
-        
+                  aria-haspopup="true" aria-expanded="false">
+
                   <i class="fa fa-user" aria-hidden="true"></i>
-        
-                  <div class="user_name" data-toggle="collapse" >
+
+                  <div class="user_name" data-toggle="collapse">
                     <span class="d-none   d-md-inline">Ernest Green</span>
-          
-          
-                    <i class="fa fa-sort-down rotate-icon-new " aria-hidden="true" ></i>
-        
-        
+
+
+                    <i class="fa fa-sort-down rotate-icon-new " aria-hidden="true"></i>
+
+
                   </div>
                   <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item" href="#">
@@ -130,7 +138,7 @@
                       <i class="fa fas fa-key" aria-hidden="true"></i>
                       Cambiar contraseña
                     </a>
-          
+
                     <a class="dropdown-item" href="#">
                       <i class="fa fas fa-user" aria-hidden="true"></i>
                       Direcciones de facturación
@@ -144,16 +152,14 @@
                       <i class="fa fas fa-sign-in-alt" aria-hidden="true"></i>
                       Entrada
                     </a>
-        
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        
-        
-        
+
         <section class="wrapper-content">
           <div class="row">
             <div class="col-12 col-lg-6">
@@ -163,33 +169,37 @@
                 <div class="view view-cascade d-flex justify-content-between align-items-center">
                   <!-- Title -->
                   Origin Details
-                  <i class=" icn-button_eraser"></i>
+                  <div class="right-buttons">
+                    <i class=" icn-button_eraser"></i>
+                    <select class="origin_country" name="" id="">
+                    </select>
+                  </div>
                 </div>
                 <!-- Card content -->
                 <div class=" card-body-cascade">
                   <form action="#">
                     <div class="d-flex card-body-row-1 ">
-                      <div class="form-check col-6" >
-                       
+                      <div class="form-check col-6">
+
                         <!-- Default checked -->
                         <div class="custom-control custom-radio">
-                          <input type="radio" class="custom-control-input id_radio1"  value="AddressBook" id="OriginDetails_AddressBook" name="radioStep">
+                          <input type="radio" class="custom-control-input id_radio1" value="AddressBook"
+                            id="OriginDetails_AddressBook" name="radioStep" checked>
                           <label class="custom-control-label" for="OriginDetails_AddressBook">Address book</label>
                         </div>
                       </div>
-                      <div class="form-check col-6" >
+                      <div class="form-check col-6">
                         <div class="custom-control custom-radio">
-                          <input type="radio" class="custom-control-input id_radio2"  value="NewDirection" id="OriginDetails_NewDirection" name="radioStep">
+                          <input type="radio" class="custom-control-input id_radio2" value="NewDirection"
+                            id="OriginDetails_NewDirection" name="radioStep">
                           <label class="custom-control-label" for="OriginDetails_NewDirection">New Direction</label>
                         </div>
                       </div>
-                     
                     </div>
-  
-                   
+
                     <div class="d-flex ">
-                      
-                      <div class="desc radioAddressBook rectangle-5" style="display: none;">
+<!-- Left side Address -->
+                      <div class="desc radioAddressBook rectangle-5">
                         <div class="row align-items-center justify-content-between card-body-row">
                           <div class="sel position-relative flex-1">
                             <select class="mdb-select md-form colorful-select dropdown-primary  w-100">
@@ -207,7 +217,7 @@
                         </div>
                         <div class=" card-body-row-2 ">
                           <span class="rectangle-15 icon-absolute">
-                             <i class="fas fa-pencil-alt  atoms-icon-shipments-user-chat"></i>
+                            <i class="fas fa-pencil-alt  atoms-icon-shipments-user-chat"></i>
                           </span>
                           <div class="wr_line_address_book d-flex ">
                             <div class="static">Company</div>
@@ -224,27 +234,166 @@
                           <div class="wr_line_address_book d-flex">
                             <div class="static">Ship from</div>
                             <div class="render_value">
-                            <span class="flag">
-                              <img src="img/custom/flag.png" alt=" ">
-                            </span>
+                              <span class="flag">
+                                <img src="img/custom/flag.png" alt=" ">
+                              </span>
                               95930 Mecayapan, VE
                             </div>
                           </div>
                         </div>
                       </div>
-                       
-                      
-                      
-                      
-                      <div class="desc radioNewDirection" style="display: none;">2 Cars</div>
-  
+<!-- Left side New Direction -->
+                      <div class="desc radioNewDirection card-body-row" style="display: none;">
+                        <div class="new-dir d-flex justify-content-between ">
+                          <div class="new-direction-title">Create new direction</div>
+                          <div class="new-direction-checkbox d-flex">
+                            <span>Save to address book</span>
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+                              <label class="custom-control-label" for="defaultChecked2"> </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="new-dir-block">
+                          <div class="new-dir-block-title">Contact information</div>
+
+                          <div class="new-dir-block-content d-flex justify-content-between flex-wrap">
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-user prefix"></i>
+                                <input type="text" id="FirstName" class="form-control">
+                                <label for="FirstName">First and last name</label>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-building prefix"></i>
+                                <input type="text" id="company" class="form-control">
+                                <label for="company">Company (optional)</label>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-phone prefix"></i>
+                                <input type="tel" id="phone" class="form-control">
+                                <label for="phone">Phone </label>
+                                <i class="fas fa-question-circle new-dir-block-content-item-after"></i>
+                                <div class="new-dir-info">Some text</div>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-envelope prefix"></i>
+                                <input type="email" id="email" class="form-control">
+                                <label for="email">Email (optional)</label>
+                                <i class="fas fa-question-circle new-dir-block-content-item-after"></i>
+                                <div class="new-dir-info">Some text</div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                        <div class="new-dir-block">
+                          <div class="new-dir-block-title">Shipping address</div>
+
+                          <div class="new-dir-block-content d-flex justify-content-between flex-wrap">
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-envelope prefix"></i>
+                                <img class='g-map' src="img/svg/google_maps.svg" alt="">
+                                <input type="text" id="street" class="form-control">
+                                <label for="street">Street and number</label>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <input type="text" id="direction" class="form-control">
+                                <label for="direction">Direction Line 2 (optional)</label>
+                                <i class="fas fa-question-circle new-dir-block-content-item-after"></i>
+                                <div class="new-dir-info">Some text</div>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item-full d-flex">
+                              <div class="select-country">
+                                <div class="select-country-title">Country</div>
+                                <select class='search_country'>
+                                </select>
+
+                              </div>
+                              <div class="md-form">
+                                <input type="text" id="QSearch" class="form-control">
+                                <label for="QSearch">Quick Search (Postal Code / City )</label>
+                                <i class="fas fa-sync-alt new-dir-block-content-item-after"></i>
+                              </div>
+                            </div>
+
+                            <!-- collapse  -->
+                            <div id="module_more">
+                              <a role="button" class="float-right" data-toggle="collapse" href="#show_more_addr"
+                                aria-expanded="false" aria-controls="collapseExample">
+                              </a>
+                              <div class="collapse show" id="show_more_addr" aria-expanded="false">
+                                <div class="new-dir-block-content-item-full d-flex flex-wrap">
+
+                                  <div class="md-form">
+                                    <input type="text" id="Country" class="form-control">
+                                    <label for="Country">Mexico</label>
+                                  </div>
+
+                                  <div class="md-form">
+                                    <input type="text" id="Neighborhood" class="form-control">
+                                    <label for="Neighborhood">Neighborhood</label>
+                                    <i class="fas fa-sync-alt new-dir-block-content-item-after"></i>
+                                  </div>
+
+                                  <div class="md-form">
+                                    <input type="text" id="District" class="form-control">
+                                    <label for="District">District</label>
+                                  </div>
+                                </div>
+
+                                <div class="new-dir-block-content-item-full d-flex">
+                                  <div class="md-form mr-4 w-25">
+                                    <input type="tel" id="Postal" class="form-control">
+                                    <label for="Postal">Postal Code</label>
+                                    <i class="fas fa-sync-alt new-dir-block-content-item-after"></i>
+                                  </div>
+                                  <div class="md-form">
+                                    <input type="text" id="City" class="form-control">
+                                    <label for="City">PostaCity</label>
+                                    <i class="fas fa-sync-alt new-dir-block-content-item-after"></i>
+                                  </div>
+                                </div>
+                                <div class="new-dir-block-content-item-full d-flex">
+                                  <div class="sel position-relative flex-1">
+                                    <select class="mdb-select md-form colorful-select dropdown-primary  w-100">
+                                      <option value="1">Option 1</option>
+                                      <option value="2">Option 2</option>
+                                      <option value="3">Option 3</option>
+                                      <option value="4">Option 4</option>
+                                      <option value="5">Option 5</option>
+                                    </select>
+                                    <label>State</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </form>
-                 
                 </div>
               </div>
               <!-- Card end -->
             </div>
+
             <div class="col-12 col-lg-6">
               <!-- Card  start -->
               <div class="card card-cascade pickup custom-card">
@@ -252,59 +401,240 @@
                 <div class="view view-cascade d-flex justify-content-between align-items-center">
                   <!-- Title -->
                   Destination Details
-                  <i class=" icn-button_eraser"></i>
-                  
+                  <div class="right-buttons">
+                    <i class=" icn-button_eraser"></i>
+                    <select class="dest_country" name="" id="">
+                    </select>
+                  </div>
+
                 </div>
                 <!-- Card content -->
                 <div class=" card-body-cascade">
                   <form action="#">
                     <div class="d-flex card-body-row-1 ">
-                      <div class="form-check col-6" >
+
+                      <div class="form-check col-6">
                         <!-- Default checked -->
                         <div class="custom-control custom-radio">
-                          <input type="radio" class="custom-control-input" id="addressBook" name="addressBook" checked>
-                          <label class="custom-control-label" for="addressBook">Address book</label>
+                          <input type="radio" class="custom-control-input" value="destAddressBook" id="destaddressBook"
+                            name="newDirection">
+                          <label class="custom-control-label" for="destaddressBook">Address book</label>
                         </div>
                       </div>
-                      <div class="form-check col-6" >
+                      <div class="form-check col-6">
                         <!-- Default checked -->
                         <div class="custom-control custom-radio">
-                          <input type="radio" class="custom-control-input" id="newDirection" name="newDirection" checked>
+                          <input type="radio" class="custom-control-input" value="destnewDirection" id="newDirection"
+                            name="newDirection" checked>
                           <label class="custom-control-label" for="newDirection">New direction</label>
                         </div>
                       </div>
                     </div>
-      
-                    <div class="d-flex align-items-center justify-content-between card-body-row">
-                      <div class="sel position-relative flex-1">
-                        <select class="mdb-select md-form colorful-select dropdown-primary  w-100">
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                          <option value="4">Option 4</option>
-                          <option value="5">Option 5</option>
-                        </select>
-                        <label>Select from address book</label>
+                    <div class="d-flex ">
+  <!-- Right side Address -->
+                      <div class="desc radiodestAddressBook rectangle-5" style="display:none">
+                        <div class="row align-items-center justify-content-between card-body-row">
+                          <div class="sel position-relative flex-1">
+                            <select class="mdb-select md-form colorful-select dropdown-primary  w-100">
+                              <option value="1">Option 1</option>
+                              <option value="2">Option 2</option>
+                              <option value="3">Option 3</option>
+                              <option value="4">Option 4</option>
+                              <option value="5">Option 5</option>
+                            </select>
+                            <label>Select from address book</label>
+                          </div>
+
+                          <span class="rectangle-15">
+                            <i class="icn-input_contact_book atoms-icon-shipments-user-chat"></i>
+                          </span>
+                        </div>
+                        <div class=" card-body-row-2 ">
+                          <span class="rectangle-15 icon-absolute">
+                            <i class="fas fa-pencil-alt  atoms-icon-shipments-user-chat"></i>
+                          </span>
+                          <div class="wr_line_address_book d-flex ">
+                            <div class="static">Company</div>
+                            <div class="render_value">
+                              Solution Realty
+                            </div>
+                          </div>
+                          <div class="wr_line_address_book d-flex">
+                            <div class="static">Contact</div>
+                            <div class="render_value">
+                              Ian Mitchell
+                            </div>
+                          </div>
+                          <div class="wr_line_address_book d-flex">
+                            <div class="static">Ship from</div>
+                            <div class="render_value">
+                              <span class="flag">
+                                <img src="img/custom/flag.png" alt=" ">
+                              </span>
+                              95930 Mecayapan, VE
+                            </div>
+                          </div>
+                        </div>
                       </div>
-        
-                      <span class="rectangle-15">
-                      <i class="icn-input_contact_book atoms-icon-shipments-user-chat"></i>
-                    </span>
+<!-- Right side Direction -->
+                      <div class="desc radiodestnewDirection card-body-row">
+                        <div class="new-dir d-flex justify-content-between ">
+                          <div class="new-direction-title">Create new direction</div>
+                          <div class="new-direction-checkbox d-flex">
+                            <span>Save to address book</span>
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="defaultChecked2" checked="">
+                              <label class="custom-control-label" for="defaultChecked2"> </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="new-dir-block">
+                          <div class="new-dir-block-title">Contact information</div>
+
+                          <div class="new-dir-block-content d-flex justify-content-between flex-wrap">
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-user prefix"></i>
+                                <input type="text" id="FirstName" class="form-control">
+                                <label for="FirstName">First and last name</label>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-building prefix"></i>
+                                <input type="text" id="company" class="form-control">
+                                <label for="company">Company (optional)</label>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-phone prefix"></i>
+                                <input type="tel" id="phone" class="form-control">
+                                <label for="phone">Phone </label>
+                                <i class="fas fa-question-circle new-dir-block-content-item-after"></i>
+                                <div class="new-dir-info">Some text</div>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-envelope prefix"></i>
+                                <input type="email" id="email" class="form-control">
+                                <label for="email">Email (optional)</label>
+                                <i class="fas fa-question-circle new-dir-block-content-item-after"></i>
+                                <div class="new-dir-info">Some text</div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                        <div class="new-dir-block">
+                          <div class="new-dir-block-title">Shipping address</div>
+
+                          <div class="new-dir-block-content d-flex justify-content-between flex-wrap">
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <i class="fas fa-envelope prefix"></i>
+                                <img class="g-map" src="img/svg/google_maps.svg" alt="">
+                                <input type="text" id="street" class="form-control">
+                                <label for="street">Street and number</label>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item">
+                              <div class="md-form">
+                                <input type="text" id="direction" class="form-control">
+                                <label for="direction">Direction Line 2 (optional)</label>
+                                <i class="fas fa-question-circle new-dir-block-content-item-after"></i>
+                                <div class="new-dir-info">Some text</div>
+                              </div>
+                            </div>
+
+                            <div class="new-dir-block-content-item-full d-flex">
+                              <div class="select-country">
+                                <div class="select-country-title">Country</div>
+                                <select class="dest_search_country"></select>
+                              </div>
+                              <div class="md-form">
+                                <input type="text" id="QSearch" class="form-control">
+                                <label for="QSearch">Quick Search (Postal Code / City )</label>
+                                <i class="fas fa-sync-alt new-dir-block-content-item-after"></i>
+                              </div>
+                            </div>
+
+                            <!-- collapse  -->
+                            <div id="module_more">
+                              <a role="button" class="float-right" data-toggle="collapse" href="#show_more_addr2"
+                                aria-expanded="false" aria-controls="collapseExample">
+                              </a>
+                              <div class="collapse show" id="show_more_addr2" aria-expanded="false">
+                                <div class="new-dir-block-content-item-full d-flex flex-wrap">
+
+                                  <div class="md-form">
+                                    <input type="text" id="Country" class="form-control">
+                                    <label for="Country">Mexico</label>
+                                  </div>
+
+                                  <div class="md-form">
+                                    <input type="text" id="Neighborhood" class="form-control">
+                                    <label for="Neighborhood">Neighborhood</label>
+                                    <i class="fas fa-sync-alt new-dir-block-content-item-after"></i>
+                                  </div>
+
+                                  <div class="md-form">
+                                    <input type="text" id="District" class="form-control">
+                                    <label for="District">District</label>
+                                  </div>
+                                </div>
+
+                                <div class="new-dir-block-content-item-full d-flex">
+                                  <div class="md-form mr-4 w-25">
+                                    <input type="tel" id="Postal" class="form-control">
+                                    <label for="Postal">Postal Code</label>
+                                    <i class="fas fa-sync-alt new-dir-block-content-item-after"></i>
+                                  </div>
+                                  <div class="md-form">
+                                    <input type="text" id="City" class="form-control">
+                                    <label for="City">PostaCity</label>
+                                    <i class="fas fa-sync-alt new-dir-block-content-item-after"></i>
+                                  </div>
+                                </div>
+                                <div class="new-dir-block-content-item-full d-flex">
+                                  <div class="sel position-relative flex-1">
+                                    <select class="mdb-select md-form colorful-select dropdown-primary  w-100">
+                                      <option value="1">Option 1</option>
+                                      <option value="2">Option 2</option>
+                                      <option value="3">Option 3</option>
+                                      <option value="4">Option 4</option>
+                                      <option value="5">Option 5</option>
+                                    </select>
+                                    <label>State</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                   </form>
-  
+
                 </div>
               </div>
               <!-- Card end -->
-              </div>
+            </div>
           </div>
           <div class="row">
             <div class="col-12">
-              <button type="button" class="btn btn-primary btn-continue">continue</button>
+              <button type="button" class="btn btn-continue">continue</button>
             </div>
-            
+
           </div>
-    
+
         </section>
       </div>
       <!-- Footer -->
@@ -338,8 +668,11 @@
           <div class=" col-md-4 col-lg-4 col-xl-4">
             <div class="foo-wrapper">
               <h3>Sobre nosotros</h3>
-              <p>Somos una empresa que nace global con base en Chile y México. Tenemos más de 10 años de experiencia en la industria de transporte y logística hemos estado involucrado en el desarrollo de productos de e commerce en uno de los lideres de la logistica del mundo.</p>
-              <p>Nuestra misión es fortalecer y facilitar el comercio electrónico de nuestros clientes, ofreciendo herramientas seguras, confiables y fáciles de usar para integrar sus servicios de logística.</p>
+              <p>Somos una empresa que nace global con base en Chile y México. Tenemos más de 10 años de experiencia en
+                la industria de transporte y logística hemos estado involucrado en el desarrollo de productos de e
+                commerce en uno de los lideres de la logistica del mundo.</p>
+              <p>Nuestra misión es fortalecer y facilitar el comercio electrónico de nuestros clientes, ofreciendo
+                herramientas seguras, confiables y fáciles de usar para integrar sus servicios de logística.</p>
             </div>
           </div>
           <div class=" col-md-4 col-lg-4 col-xl-4">
@@ -361,18 +694,11 @@
             </div>
           </div>
         </div>
-  
+
       </footer>
       <!--Footer-->
     </div>
-</main>
-
-
-
-
-
-
-
+  </main>
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
@@ -387,34 +713,20 @@
   <script src="js/picker/moment.js"></script>
   <script src="js/picker/daterangepicker.js"></script>
   <script src="js/picker/data-picker.js"></script>
-<!-- MMENU -->
 
+  <script src="js/main.js"></script>
 
-
-
-<script>
-    // Material Select Initialization
-    $(document).ready(function() {
-        $('.mdb-select').materialSelect();
-    });
-</script>
-<!--script for displaying blocks by clicking input type="radio"-->
-<script src="js/radio-check.js"></script>
-<!-- MMENU JS :/ -->
-<!--<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>-->
-<script src="js/mmenu/layout.js"></script>
-<script src="js/mmenu/jquery.mmenu.all.js"></script>
-<script src="js/mmenu/mmenu.js"></script>
-<!-- async loading of CSS, for Googles sake :/ -->
-<noscript id="deferred-styles">
-    <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hamburgers.css"/>
-</noscript>
-
-
+  <!--<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>-->
+  <script src="js/mmenu/layout.js"></script>
+  <script src="js/mmenu/jquery.mmenu.all.js"></script>
+  <script src="js/mmenu/mmenu.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
+  <!-- async loading of CSS, for Googles sake :/ -->
+  <noscript id="deferred-styles">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css" />
+  </noscript>
 
 </body>
 
-
-<!-- Mirrored from skyowl.pro/work/index/get-shipment-rate-Step-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 May 2019 08:09:30 GMT -->
 </html>

@@ -1,0 +1,23 @@
+{
+  "name": "shiping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smikex/Env_shipment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smikex/Env_shipment/issues"
+  },
+  "homepage": "https://github.com/Smikex/Env_shipment#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2"
+  }
+}

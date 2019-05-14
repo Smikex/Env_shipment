@@ -93,7 +93,8 @@
         margin-right: 10px;
     }
     .name_shipments {
-        font-size: 18px;
+        font-size: 16px;
+        margin-top: 7px;
     }
     .shipments-selected {
         flex-wrap: wrap;
@@ -125,5 +126,17 @@
 @media screen and (max-width: 720px )  {
     .container {
         padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 500px )  {
+    .md-form label {
+        font-size: 12px;
+    }
+    .new-dir-block-content-item {
+        width: 100%;
+    }
+    .btn-continue{
+        display: block;
+        margin: 0 auto;
     }
 }
