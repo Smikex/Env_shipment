@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Shiping 3.2</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <!-- Select2 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
+  <!-- Font fonts-icon -->
+  <link rel="stylesheet" href="css/fonts-icon.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="css/daterangepicker.css">
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <header>
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main id="page">
+    <div class="container">
+
+      <nav id="menu">
+        <ul class="listview-icons">
+          <li class="first-line-menu">
+            <a href="#" class=" "><span><i class="fa-custome icn-menu_dashboard_default"></i></span>Dashboard</a>
+          </li>
+          <li>
+            <a class=" first-line-menu" href="#mm-1" aria-owns="mm-1" aria-haspopup="true">
+              <span><i class="fa-custome icn-menu_shipments_default"></i></span>
+              Shipments
+            </a>
+            <ul class="mm-listview custome-nav">
+              <li><a href="#">My Shipments</a></li>
+              <li><a href="#">Get Shipment Rate</a></li>
+              <li><a href="#">Quote Shipment</a></li>
+              <li><a href="#">Schedule Pickup</a></li>
+              <li><a href="#">Pickups</a></li>
+              <li><a href="#">Address book</a></li>
+              <li><a href="#">Packagings</a></li>
+              <li><a href="#">Shipment Template</a></li>
+            </ul>
+          </li>
+          <li class="first-line-menu"><a href="#" class=" "><span><i
+                  class="fa-custome icn-menu_billing_default"></i></span>Billing</a></li>
+          <li class="first-line-menu"><a href="#" class=" "><span><i
+                  class="fa-custome icn-menu_administration_default"></i></span>Administration</a></li>
+          <li class="first-line-menu"><a href="#" class=" "><span><i
+                  class="fa-custome icn-menu_system_default"></i></span>Sistem</a></li>
+          <li class="first-line-menu"><a href="#" class=" "><span><i
+                  class="fa-custome icn-menu_shop_default"></i></span>Shops</a></li>
+          <li class="menu-support first-line-menu"><a href="#"><span><i
+                  class="fa-custome icn-menu_support_default"></i></span>Support</a></li>
+          <li class=" menu-faq first-line-menu"><a href="#"><span><i
+                  class="fa-custome icn-menu_dashboard_default"></i></span>FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="wrapper">
+        <span id="hamburger" class="Sticky ">
+          <a href="#menu" class="hamburger">
+            <span class="hamburger-box">
+              <span class="hamburger-inner "></span>
+            </span>
+          </a>
+        </span>
+        <!-- Head  -->
+        <section class="header">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class=" name_shipments">
+              Get Shipment Rate
+            </div>
+            <div class="step-1-of-5-enter-s d-md-block d-none">
+              Step 1 of 5: Enter Shipment Details
+            </div>
+            <div class=" d-flex">
+              <!-- <div class="switch">
+                <label>
+                  <span class="d-none   d-md-inline">Live mode</span>
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                </label>
+              </div> -->
+              <div class="notifications">
+                <a href="#">
+                  <i class="fa fa-bell" aria-hidden="true"></i>
+                  <span class="z-depth-1-half">18</span>
+                </a>
+              </div>
+              <div class="dropdown ">
+                <div class="user d-flex align-items-center" id="dropdownMenu4" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+
+                  <i class="fa fa-user" aria-hidden="true"></i>
+
+                  <div class="user_name" data-toggle="collapse">
+                    <span class="d-none   d-md-inline">Ernest Green</span>
+
+                    <i class="fa fa-sort-down rotate-icon-new " aria-hidden="true"></i>
+
+                  </div>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">
+                      <i class="fa fas fa-paper-plane" aria-hidden="true"></i>
+                      Mis envios
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <i class="fa fas fa-sliders-h" aria-hidden="true"></i>
+                      Configuración
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <i class="fa fas fa-key" aria-hidden="true"></i>
+                      Cambiar contraseña
+                    </a>
+
+                    <a class="dropdown-item" href="#">
+                      <i class="fa fas fa-user" aria-hidden="true"></i>
+                      Direcciones de facturación
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item sign-out" href="#">
+                      <i class="fa fas fa-sign-out-alt" aria-hidden="true"></i>
+                      Salir
+                    </a>
+                    <a class="dropdown-item sign-in" href="#">
+                      <i class="fa fas fa-sign-in-alt" aria-hidden="true"></i>
+                      Entrada
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="wrapper-content">
+          <div class="row">
+            <div class="col-md-8">
+              <ul class="headline nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                    aria-controls="home" aria-selected="true">Shipment Information</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">Pickup</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                    aria-controls="contact" aria-selected="false">Invoice</a>
+                </li>
+              </ul>
+
+              <div class="tab-content card" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <form action="">
+                    <div class="md-form ship-date">
+                      <i class="fas fa-calendar-alt prefix"></i>
+                      <input placeholder="Selected date" type="text" id="date-picker-example"
+                        class="form-control datepicker">
+                      <label for="date-picker-example">Dates</label>
+                    </div>
+                    <div class="tab-info-title">Shipment type</div>
+                    <!-- radios -->
+                    <div class="tab-radios col-md-4 d-flex ">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" value="document" id="document" checked
+                          name="type">
+                        <label class="custom-control-label" for="document">Document</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" value="package" id="package" name="type">
+                        <label class="custom-control-label" for="package">Package</label>
+                      </div>
+                    </div>
+                    <!-- Document -->
+                    <div class="desc radiodocument">
+                      <div class="d-flex">
+                        <div class="md-form">
+                          <input type="text" id="document-weight" class="form-control">
+                          <label for="document-weight">Document weight</label>
+                        </div>
+                        <div class="sel position-relative ">
+                          <select class="mdb-select md-form colorful-select dropdown-primary  w-25">
+                            <option value="1">Kg</option>
+                            <option value="2">Lb</option>
+                          </select>
+                          <label>Weight type</label>
+                        </div>
+
+                      </div>
+                      <div class="d-flex">
+                        <div class="new-dir-block-content-item">
+                          <div class="md-form">
+
+                            <input type="text" id="ship-content" class="form-control">
+                            <label for="ship-content">Shipment content </label>
+                            
+                            <a href="#" data-toggle="tooltip" title="Default tooltip"><i class="fas fa-question-circle new-dir-block-content-item-after"></i></a>
+                          </div>
+                        </div>
+
+                        <div class="new-dir-block-content-item">
+                          <div class="md-form">
+                            <input type="text" id="reference" class="form-control" aria-describedby="reference">
+                            <label for="reference">Reference(s)</label>
+                           
+                            <a href="#" data-toggle="tooltip" title="Default tooltip"><i class="fas fa-question-circle new-dir-block-content-item-after"></i></a>
+                            <small id="reference" class="form-text text-muted">
+                              Optional (for your own, internal use)
+                            </small>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="insure-shiopment">
+                        <label class="form-check-label" for="insure-shiopment">Insure Shipment</label>
+                      </div>
+                    </div>
+                    <!-- Package -->
+                    <div class="desc radiopackage" style="display: none">
+                      <div class="d-flex align-items-center">
+                        <select class="mdb-select md-form package-select">
+                          <option value="0" disabled selected>Select package</option>
+                          <option value="1">Package 1</option>
+                          <option value="2">Package 2</option>
+                          <option value="3">Package 3</option>
+                        </select>
+                        <span class="rectangle-15 package-ico">
+                          <img src="img/svg/menu_shipments_default.svg" alt="">
+                        </span>
+                      </div>
+                      <!-- Package block -->
+                      <div class="package-block">
+                        <div class="package-block-headline justify-content-between">
+                          <div class="package-block-name">Package 1
+                            <button><i class="fas fa-trash-alt"></i></button>
+                          </div>
+                          <div class="package-switch d-flex">
+                            <div class="custom-control custom-switch">
+                              <input type="checkbox" class="custom-control-input" id="PackageSwitch1">
+                              <span>Metric</span>
+                              <label class="custom-control-label" for="PackageSwitch1">US standard</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="package-block-content d-flex justify-content-between">
+                          <div class="package-block-content-left">
+                            <div class="md-form form-group">
+                              <input type="number" class="form-control" id="inputQ">
+                              <label for="inputQ">Quantity</label>
+                            </div>
+                          </div>
+                          <div class="package-block-content-center d-flex">
+                            <div class="md-form form-group">
+                              <input type="number" class="form-control" id="inputl">
+                              <label for="inputl">Lenght, cm</label>
+                            </div>
+                            <div class="md-form form-group">
+                              <input type="number" class="form-control" id="inputWi">
+                              <label for="inputWi">Width,cm</label>
+                            </div>
+                            <div class="md-form form-group">
+                              <input type="number" class="form-control" id="inputH">
+                              <label for="inputH">Height, cm</label>
+                            </div>
+                            <div class="md-form form-group">
+                              <input type="number" class="form-control" id="inputWe">
+                              <label for="inputWe">Weight, kg</label>
+                            </div>
+                          </div>
+                          <div class="package-block-content-right">
+                            <div class="md-form form-group">
+                              <input type="number" class="form-control" id="inputV" step="any" value="1.6" disabled>
+                              <label for="inputV">Vol. Weight, kg</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="package-block-ref ">
+                          <!-- Collapsible element -->
+                          <div class="collapse" id="ref1">
+                            <p>List of references</p>
+                            <div class="package-block-ref-inputs d-flex sel">
+                              <div class="position-relative package-block-ref-inputs-left">
+                                <select class="mdb-select md-form colorful-select dropdown-primary">
+                                  <option value="1">Cost Center</option>
+                                  <option value="2">Lb</option>
+                                </select>
+                                <label>Type of reference</label>
+                              </div>
+                              <div class="md-form form-group">
+                                <input type="text" class="form-control" id="inputV">
+                                <label for="inputV">Reference</label>
+                              </div>
+                              <button class="trash-button"><i class="fas fa-trash-alt"></i></button>
+                            </div>
+                          </div>
+                          <!-- / Collapsible element -->
+
+                          <!-- / Collapse buttons -->
+                          <a class="" data-toggle="collapse" href="#ref1" aria-expanded="false" aria-controls="ref1">
+                            Add parcel reference
+                          </a>
+
+                        </div>
+
+                      </div>
+                      <button type="button" class="btn btn-outline-primary waves-effect w-100 button-add-package"><i
+                          class="fa-custome icn-basic_create_shipments pl-5 pr-2" aria-hidden="true"></i>ADD
+                        PACKAGE</button>
+                      <hr>
+                      <div class="package-block-total d-flex justify-content-end">
+                        <p>Total invoiced weight</p><a href="#" data-toggle="tooltip" title="Default tooltip"><i
+                            class="fas fa-question-circle package-block-total-after"></i></a>
+                        <div class="package-block-total-result"><span>20.00</span> KG</div>
+                      </div>
+                      <div class="package-block-total-content d-flex">
+                        <div class="md-form form-group">
+                          <input type="text" class="form-control" id="inputV">
+                          <label for="inputV">Shipment content</label>
+                          <a href="#" data-toggle="tooltip" title="" data-original-title="Default tooltip"><i class="fas fa-question-circle new-dir-block-content-item-after"></i></a>
+                        </div>
+                      
+                      </div>
+                      <!-- Collapsible element -->
+                      <div class="collapse" id="ref">
+                        <p>List of references</p>
+                        <div class="package-block-ref-inputs d-flex sel">
+                          <div class="position-relative package-block-ref-inputs-left">
+                            <select class="mdb-select md-form colorful-select dropdown-primary">
+                              <option value="1">Cost Center</option>
+                              <option value="2">Lb</option>
+                            </select>
+                            <label>Type of reference</label>
+                          </div>
+                          <div class="md-form form-group">
+                            <input type="text" class="form-control" id="inputV">
+                            <label for="inputV">Reference</label>
+                          </div>
+                          <button class="trash-button"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                      </div>
+                      <!-- / Collapsible element -->
+
+                      <!-- / Collapse buttons -->
+                      <a class="add-ref" data-toggle="collapse" href="#ref" aria-expanded="false" aria-controls="ref1">
+                        Add parcel reference
+                      </a>
+
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="insure-shipment2">
+                        <label class="form-check-label " for="insure-shipment2">Insure Shipment</label>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Food truck fixie
+                  locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit,
+                  blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+                  Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl
+                  cillum
+                  PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS
+                  salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson
+                  8-bit,
+                  sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
+                  stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape
+                  wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack
+                  lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard
+                  locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify
+                  squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel
+                  fixie
+                  etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog
+                  stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+              </div>
+              </form>
+            </div>
+            <!-- Edit Adress -->
+            <div class="col-md-4">
+              <div class="card-address">
+
+                <div class="card-address-block" id="origin">
+                  <div class="card-body-headline d-flex justify-content-between"><span>Origin</span>
+                    <span class="rectangle-15">
+                      <i class="fas fa-pencil-alt  atoms-icon-shipments-user-chat"></i>
+                    </span>
+                  </div>
+                  <div class="wr_line_address_book d-flex">
+                    <div class="static">Contact</div>
+                    <div class="render_value">
+                      Ian Mitchell
+                    </div>
+                  </div>
+                  <div class="wr_line_address_book d-flex">
+                    <div class="static">Ship from</div>
+                    <div class="render_value">
+                      <span class="flag">
+                        <img src="img/custom/flag.png" alt=" ">
+                      </span>
+                      95930 Mecayapan, VE
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-address-block" id="destination">
+                  <div class="card-body-headline d-flex justify-content-between"><span>Destination</span>
+                    <span class="rectangle-15">
+                      <i class="fas fa-pencil-alt  atoms-icon-shipments-user-chat"></i>
+                    </span>
+                  </div>
+                  <div class="wr_line_address_book d-flex">
+                    <div class="static">Contact</div>
+                    <div class="render_value">
+                      Ian Mitchell
+                    </div>
+                  </div>
+                  <div class="wr_line_address_book d-flex">
+                    <div class="static">Ship to</div>
+                    <div class="render_value">
+                      <span class="flag">
+                        <img src="img/custom/flag.png" alt=" ">
+                      </span>
+                      95930 Mecayapan, VE
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <button type="button" class="btn btn-continue">Quote</button>
+            </div>
+        </section>
+
+      </div>
+      <!-- Footer -->
+      <footer class="page-footer  d-none   d-md-block  fixed-bottom">
+        <div class="row">
+          <div class=" col-md-4 col-lg-4 col-xl-4">
+            <div class="foo-wrapper">
+              <h3>País</h3>
+              <p>
+                <select class="mdb-select md-form colorful-select dropdown-primary" searchable="Search here..">
+                  <option value="" disabled selected>Choose your country</option>
+                  <option value="1">USA</option>
+                  <option value="2">Germany</option>
+                  <option value="3">France</option>
+                  <option value="3">Poland</option>
+                  <option value="3">Japan</option>
+                </select>
+              </p>
+            </div>
+            <div class="foo-wrapper">
+              <h3>Enlaces</h3>
+              <a href="https://enviaya.com.mx/terminos_y_condiciones">Términos y condiciones</a>
+              <a href="https://enviaya.com.mx/aviso_de_privacidad">Aviso de Privacidad</a>
+              <a href="https://enviaya.com.mx/contacto">Contacto</a>
+            </div>
+            <div class="foo-wrapper">
+              <h3>Métodos de Pago</h3>
+              <img src="img/custom/pay.png" alt="">
+            </div>
+          </div>
+          <div class=" col-md-4 col-lg-4 col-xl-4">
+            <div class="foo-wrapper">
+              <h3>Sobre nosotros</h3>
+              <p>Somos una empresa que nace global con base en Chile y México. Tenemos más de 10 años de experiencia en
+                la industria de transporte y logística hemos estado involucrado en el desarrollo de productos de e
+                commerce en uno de los lideres de la logistica del mundo.</p>
+              <p>Nuestra misión es fortalecer y facilitar el comercio electrónico de nuestros clientes, ofreciendo
+                herramientas seguras, confiables y fáciles de usar para integrar sus servicios de logística.</p>
+            </div>
+          </div>
+          <div class=" col-md-4 col-lg-4 col-xl-4">
+            <div class="foo-wrapper">
+              <h3>Contáctanos!</h3>
+              <p>
+                Kepler 195 <br />
+                Col. Nueva Anzures<br />
+                11590 México DF<br />
+                México </p>
+            </div>
+            <div class="foo-wrapper">
+              <i class="fa-custome icn-input_email"></i><a href="https://enviaya.com.mx/contacto">Enviar un mensaje</a>
+            </div>
+            <div class="foo-wrapper">
+              <p> Horarios de Servicio: <br />
+                <i class="fa-custome icn-shipmennts_user_schedule"></i> 09:00 - 19:00</p>
+              <p class="foo-intel">(Horario UTC -6:00 Mexico City)</p>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+      <!--Footer-->
+    </div>
+  </main>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Date Picker -->
+  <script src="js/picker/moment.js"></script>
+  <script src="js/picker/daterangepicker.js"></script>
+  <script src="js/picker/data-picker.js"></script>
+
+  <script src="js/main.js"></script>
+
+  <!--<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>-->
+  <script src="js/mmenu/layout.js"></script>
+  <script src="js/mmenu/jquery.mmenu.all.js"></script>
+  <script src="js/mmenu/mmenu.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
+  <!-- async loading of CSS, for Googles sake :/ -->
+  <noscript id="deferred-styles">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css" />
+  </noscript>
+
+</body>
+
+</html>

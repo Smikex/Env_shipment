@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // raddio tabs
-    $("input[name$='radioStep'], input[name$='newDirection']").click(function() {
+    $("input[name$='radioStep'], input[name$='newDirection'], input[name$='type']").click(function() {
         var test = $(this).val();
         $(this).parents('form').find("div.desc").hide();
         $(".radio" + test).show();
@@ -10,6 +10,12 @@ $(document).ready(function() {
 
         $('.mdb-select').materialSelect();
   
+        $('.mdb-select2').materialSelect();
+
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+          })
+
   
   // Select2 
   
@@ -299,4 +305,8 @@ $(document).ready(function() {
         return formatr(item, false);
       }
       })
+
+      // datepicker
+
+      $('.datepicker').pickadate();
 });
